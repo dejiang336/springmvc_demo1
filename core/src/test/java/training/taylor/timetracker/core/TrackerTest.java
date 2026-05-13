@@ -19,6 +19,10 @@ public class TrackerTest {
     private Tracker tracker;
 
     @Test
+    public void testMe() {
+        assertNotNull(tracker);
+    }
+    @Test
     public void testAdd() {
         TimeEntry entry = new TimeEntry();
         entry.setDescription("Entry Test");
